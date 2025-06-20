@@ -11,4 +11,19 @@
     <PackageReference Include="Terminal.Gui" Version="1.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly">
+      <HintPath>libs\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="libs\AutoItX3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="libs\AutoItX3_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
