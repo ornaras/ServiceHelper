@@ -1,0 +1,15 @@
+RegisterClass
+CreateWindowEx
+DefWindowProc
+ShowWindow
+GetMessage
+TranslateMessage
+DispatchMessage
+DrawText
+BeginPaint
+EndPaint
+GetSystemMetrics
+GetWindowText
+RedrawWindow
+DestroyWindow
+SetWindowText
