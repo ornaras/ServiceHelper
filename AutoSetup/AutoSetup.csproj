@@ -9,19 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Windows\**" />
-    <EmbeddedResource Remove="Windows\**" />
-    <None Remove="Windows\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Remove="Env.cs" />
-    <Compile Remove="Locker.Designer.cs" />
-    <Compile Remove="MyView.cs" />
-    <Compile Remove="MyView.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <AdditionalFiles Include="NativeMethods.txt" />
   </ItemGroup>
 
@@ -32,21 +19,6 @@
 	  </PackageReference>
 	  <Using Include="AutoSetup.Utils" Static="true" />
 	  <Using Include="Windows.Win32" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="AutoItX3.Assembly">
-      <HintPath>libs\AutoItX3.Assembly.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="libs\AutoItX3.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="libs\AutoItX3_x64.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
