@@ -3,8 +3,10 @@
 [Setup]
 AppName=ServiceHelper
 AppVerName=ServiceHelper
-DefaultDirName=C:\Program Files\
+DefaultDirName={tmp}
 DisableDirPage=true
+OutputDir=.
+OutputBaseFilename=ServiceHelper
 Password={#PASSWORD}
 
 [Components]
