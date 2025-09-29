@@ -2,7 +2,8 @@
 
 [Setup]
 AppName=ServiceHelper
-AppVerName=ServiceHelper
+AppVerName=ServiceHelper 29-09-2025
+AppVersion=2025.09.29
 DefaultDirName={tmp}
 DisableDirPage=true
 OutputDir=.
