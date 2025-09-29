@@ -9,6 +9,9 @@ OutputDir=.
 OutputBaseFilename=ServiceHelper
 Password={#PASSWORD}
 
+[Languages]
+Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
+
 [Components]
 Name: "settings"; Description: "Настройка компьютера"; Types: full
 Name: "settings\energy"; Description: "Энергосбережения"; Types: full compact
